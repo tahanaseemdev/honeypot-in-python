@@ -13,8 +13,7 @@ HONEYPY is a Python-based honeypot framework that simulates vulnerable services 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/honeypy.git
-   cd honeypy
+   git clone https://github.com/tahanaseemdev/honeypot-in-python.git 
    ```
 
 2. Install dependencies:
