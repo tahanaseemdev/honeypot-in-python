@@ -1,0 +1,5 @@
+server.key
+server.key.pub
+__pycache__
+requirements1.txt
+.venv

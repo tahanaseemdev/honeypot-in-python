@@ -1,0 +1,26 @@
+Client 127.0.0.1 attempted connection with username: username, password: hi
+127.0.0.1, username, hi
+Client 127.0.0.1 attempted connection with username: username, password: password
+127.0.0.1, username, password
+Command b'hi'executed by 127.0.0.1
+Command b'hi'executed by 127.0.0.1
+Command b'whoamii\x7f'executed by 127.0.0.1
+Command b'hw\x7f'executed by 127.0.0.1
+Command b'whoami'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Command b'ls'executed by 127.0.0.1
+Command b'cat jumpbox1.conf'executed by 127.0.0.1
+Client 127.0.0.1 attempted connection with username: username, password: ka
+127.0.0.1, username, ka
+Client 127.0.0.1 attempted connection with username: username, password: nj
+127.0.0.1, username, nj
+Client 127.0.0.1 attempted connection with username: username, password: asas
+127.0.0.1, username, asas
+Client 127.0.0.1 attempted connection with username: username, password: hello
+127.0.0.1, username, hello
+Client 127.0.0.1 attempted connection with username: username, password: passwordddd
+127.0.0.1, username, passwordddd
+Command b'pwd'executed by 127.0.0.1
+Command b'cd'executed by 127.0.0.1
+Command b'ls'executed by 127.0.0.1
+Command b'cat jumpbox1.conf'executed by 127.0.0.1

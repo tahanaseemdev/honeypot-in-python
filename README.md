@@ -1,1 +1,0 @@
-x:\University\sem 6\cyber security\CC-HONEYPY\.venv\Scripts\python.exe -m pip install paramiko
