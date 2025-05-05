@@ -1,11 +1,11 @@
 # HONEYPY - Multi-Service Honeypot Framework
 
 ## Overview
-HONEYPY is a Python-based honeypot framework that simulates vulnerable services to detect and log unauthorized access attempts. It currently supports SSH and WordPress admin login simulations.
+HONEYPY is a Python-based honeypot framework that simulates vulnerable services to detect and log unauthorized access attempts. It currently supports SSH and http admin login simulations.
 
 ## Features
 - **SSH Honeypot**: Simulates an SSH server with configurable credentials
-- **WordPress Honeypot**: Simulates a WordPress admin login page
+- **HTTP Honeypot**: Simulates a HTTP server using WordPress admin login page
 - **Comprehensive Logging**: Records all access attempts and commands
 - **Customizable Credentials**: Set specific usernames/passwords or use defaults
 - **Multi-threaded**: Handles multiple concurrent connections
@@ -46,7 +46,7 @@ python honeypy.py -a <IP_ADDRESS> -p <PORT> [OPTIONS]
    python honeypy.py -a 0.0.0.0 -p 2222 --ssh
    ```
 
-2. Run WordPress honeypot on port 8080 with custom credentials:
+2. Run HTTP honeypot on port 8080 with custom credentials:
    ```bash
    python honeypy.py -a 0.0.0.0 -p 8080 --http -u admin -pw P@ssw0rd
    ```
@@ -63,7 +63,7 @@ The honeypot generates detailed logs in the following files:
   - Shell responses (`emulated_shell` function)
   - Authentication behavior (`Server` class)
 
-- **WordPress Honeypot**: Modify files in `/templates` to change:
+- **HTTP Honeypot**: Modify files in `/templates` to change:
   - Login page appearance
   - Response messages
 
